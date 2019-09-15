@@ -14,6 +14,8 @@
     <modules>
         <module>eureka-server</module>
         <module>user-srv</module>
+        <module>all-common</module>
+        <module>user-cus</module>
     </modules>
     <groupId>com.gupaoedu</groupId>
     <artifactId>spring-cloud-all</artifactId>
@@ -43,6 +45,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

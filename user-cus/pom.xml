@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>user-srv</artifactId>
+    <artifactId>user-cus</artifactId>
 
     <dependencies>
         <dependency>
@@ -25,11 +25,15 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.gupaoedu</groupId>
             <artifactId>all-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>
-
 </project>
