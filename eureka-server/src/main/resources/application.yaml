@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 9999
+
+# Eureka 客户端配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:${server.port}/eureka
+  dashboard:
+    path: /dashboard
